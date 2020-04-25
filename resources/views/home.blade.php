@@ -10,13 +10,13 @@
             <a href="{{ url('video') }}">
                 <div class="pl-5 pr-5" style="max-width:300px;">
                     <img alt="image" class="img-fluid" src="{{ asset('app-assets/imgs/people/clip.jpg') }}">
-                    <div align="center">คลิปวิดีโอ</div>
+                    <div align="center">@lang('Clip Video')</div>
                 </div>
             </a>
             <a href="{{ url('product') }}">
                 <div class="pl-5 pr-5" style="max-width:300px;">
                     <img alt="image" class="img-fluid" src="{{ asset('app-assets/imgs/people/download.jpg') }}">
-                    <div align="center">แคตตาล็อคสินค้า</div>
+                    <div align="center">@lang('Product Category')</div>
                 </div>
             </a>
         </div>
@@ -51,7 +51,7 @@
     <div class="container">
         <div>
             <div>
-                <h3>สินค้าและบริการ</h3>
+                <h3>@lang('Products and Services')</h3>
             </div>
         </div>
         @foreach( $product_categories->chunk(3) as $chunk )
@@ -86,7 +86,7 @@
     <div class="container">
         <div>
             <div>
-                <h3>บทความที่น่าสนใจ</h3>
+                <h3>@lang('Interesting articles')</h3>
             </div>
         </div>
         <div class="row text-center">

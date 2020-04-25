@@ -4,19 +4,22 @@
             <div class="col">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">หน้าหลัก</a>
+                        <a class="nav-link active" href="{{ url('') }}">@lang('Home')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutus.html" target="_blank">เกี่ยวกับเรา</a>
+                        <a class="nav-link" href="{{ url('about') }}" target="_blank">@lang('About Us')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#product">สินค้า</a>
+                        <a class="nav-link" href="{{ url('product') }}">@lang('Product')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="clip.html" target="_blank">คลิปวีดิโอ</a>
+                        <a class="nav-link" href="{{ url('video') }}" target="_blank">@lang('Clip Video')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">ติดต่อเรา</a>
+                        <a class="nav-link" href="{{ url('article') }}">@lang('Article')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('contact') }}">@lang('Contact')</a>
                     </li>
                 </ul>
 

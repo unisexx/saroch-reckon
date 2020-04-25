@@ -26,7 +26,6 @@ class ContactRequest extends FormRequest
         return [
             'name'    => 'required',
             'email'   => 'required|email',
-            'tel'     => 'required',
             'subject' => 'required',
             'message' => 'required',
         ];
@@ -35,12 +34,11 @@ class ContactRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required'    => trans('validate Your name'),
-            'email.required'   => trans('validate Your email'),
-            'email.email'      => trans('validate Form Your email'),
-            'tel.required'     => trans('validate Your tel'),
-            'subject.required' => trans('validate Your subject'),
-            'message.required' => trans('validate Your message'),
+            'name.required'    => trans('Required'),
+            'email.required'   => trans('Required'),
+            'email.email'      => trans('Invalid email format'),
+            'subject.required' => trans('Required'),
+            'message.required' => trans('Required'),
         ];
     }
 

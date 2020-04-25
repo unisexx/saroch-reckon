@@ -6,7 +6,7 @@
 <section class="fdb-block">
     <div class="container">
 
-        <h2>สินค้าและบริการ</h2>
+        <h2>@lang('Products and Services')</h2>
 
         @foreach( $product_categories->chunk(3) as $chunk )
         <div class="row">

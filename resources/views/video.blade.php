@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12 text-left">
-                <h2>วิดีโอ</h2>
+                <h2>@lang('Clip Video')</h2>
             </div>
         </div>
 

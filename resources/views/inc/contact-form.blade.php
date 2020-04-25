@@ -2,8 +2,7 @@
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-12 col-md-8 col-lg-7">
-                <h1>Contact Us</h1>
-                <h2>We love to hear from you!</h2>
+                <h2>@lang('Contact Us')</h2>
             </div>
         </div>
 
@@ -13,30 +12,30 @@
                 {{ csrf_field() }}
                     <div class="row">
                         <div class="col-12 col-md">
-                            <input name="name" type="text" class="form-control" placeholder="Name">
+                            <input name="name" type="text" class="form-control" placeholder="@lang('Name')">
                         </div>
                         <div class="col-12 col-md mt-4 mt-md-0">
-                            <input name="email" type="text" class="form-control" placeholder="Email">
+                            <input name="email" type="text" class="form-control" placeholder="@lang('Email')">
                         </div>
                         <div class="col-12 col-md mt-4 mt-md-0">
-                            <input name="tel" type="text" class="form-control" placeholder="Phone (optional)">
+                            <input name="tel" type="text" class="form-control" placeholder="@lang('Phone (Optional)')">
                         </div>
                     </div>
 
                     <div class="row mt-4">
                         <div class="col">
-                            <input name="subject" type="text" class="form-control" placeholder="Subject">
+                            <input name="subject" type="text" class="form-control" placeholder="@lang('Subject')">
                         </div>
                     </div>
 
                     <div class="row mt-4">
                         <div class="col">
-                            <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+                            <textarea class="form-control" name="message" rows="3" placeholder="@lang('How can we help?')"></textarea>
                         </div>
                     </div>
                     <div class="row mt-4">
                         <div class="col text-center">
-                            <button type="submit" class="btn btn-dark">Submit</button>
+                            <button type="submit" class="btn btn-dark">@lang('Submit')</button>
                         </div>
                     </div>
                 </form>

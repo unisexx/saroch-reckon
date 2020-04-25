@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-left">
-                <h2>รายการสินค้า : {{ $product_category->title }}</h2>
+                <h2>@lang('Product list') : {{ $product_category->title }}</h2>
             </div>
         </div>
     </div>
@@ -21,11 +21,11 @@
             </div>
             <div class="col-12 ml-md-auto col-md-7 col-lg-6 pb-5 pb-md-0">
                 <h3>{{ $product->title }}</h3>
-                <p><b>รุ่น :</b> {{ $product->gen }}</p>
-                <p><b>แบรนด์ :</b> {{ $product->brand }}</p>
-                <p><b>ขนาด :</b> {{ $product->size }}</p>
-                <p><b>รายละเอียด :</b> {{ $product->body }}</p>
-                <p><b>ราคา :</b> {{ number_format($product->price, 2) }} บาท</p>
+                <p><b>@lang('Model') :</b> {{ $product->gen }}</p>
+                <p><b>@lang('Brand') :</b> {{ $product->brand }}</p>
+                <p><b>@lang('Size') :</b> {{ $product->size }}</p>
+                <p><b>@lang('Detail') :</b> {{ $product->body }}</p>
+                <p><b>@lang('Price') :</b> {{ number_format($product->price, 2) }} บาท</p>
             </div>
         </div>
         <hr>

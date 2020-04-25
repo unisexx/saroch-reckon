@@ -14,23 +14,23 @@
             <div class="collapse navbar-collapse" id="navbarNav3">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{ url('') }}" contenteditable="false">หน้าหลัก <span
+                        <a class="nav-link" href="{{ url('') }}" contenteditable="false">@lang('Home') <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('about') }}" contenteditable="false">เกี่ยวกับเรา</a>
+                        <a class="nav-link" href="{{ url('about') }}" contenteditable="false">@lang('About Us')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">สินค้า</a>
+                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">@lang('Product')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('video') }}" contenteditable="false">คลิปวิดิโอ</a>
+                        <a class="nav-link" href="{{ url('video') }}" contenteditable="false">@lang('Clip Video')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('article') }}" contenteditable="false">บทความ</a>
+                        <a class="nav-link" href="{{ url('article') }}" contenteditable="false">@lang('Article')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('contact') }}" contenteditable="false">ติดต่อเรา</a>
+                        <a class="nav-link" href="{{ url('contact') }}" contenteditable="false">@lang('Contact')</a>
                     </li>
                 </ul>
                 &nbsp;
