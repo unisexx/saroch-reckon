@@ -99,19 +99,19 @@ return [
         /*
          * Set whether or not the multilingual is supported by the BREAD input.
          */
-        'enabled' => false,
+        'enabled' => true,
 
         /*
          * Select default language
          */
-        'default' => 'en',
+        'default' => 'th',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
+            'th',
             'en',
-            //'pt',
         ],
     ],
 
@@ -188,6 +188,8 @@ return [
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
         //'css/custom.css',
+        'https://pro.fontawesome.com/releases/v5.13.0/css/all.css',
+        'https://static.fontawesome.com/css/fontawesome-app.css',
     ],
 
     'additional_js' => [
@@ -226,11 +228,11 @@ return [
         'allowed_mimetypes' => '*', //All types can be uploaded
         /*
         'allowed_mimetypes' => [
-          'image/jpeg',
-          'image/png',
-          'image/gif',
-          'image/bmp',
-          'video/mp4',
+            'image/jpeg',
+            'image/png',
+            'image/gif',
+            'image/bmp',
+            'video/mp4',
         ],
         */
         //Path for media-manager. Relative to the filesystem.
@@ -247,14 +249,14 @@ return [
             'x'              => 0,
             'y'              => 0,
             'size'           => 15,
-       ],
-       'thumbnails'          => [
-           [
-                'type'  => 'fit',
-                'name'  => 'fit-500',
-                'width' => 500,
-                'height'=> 500
-           ],
-       ]*/
+        ],
+        'thumbnails'          => [
+            [
+                    'type'  => 'fit',
+                    'name'  => 'fit-500',
+                    'width' => 500,
+                    'height'=> 500
+            ],
+        ]*/
     ],
 ];
