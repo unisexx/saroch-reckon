@@ -13,6 +13,9 @@
         @foreach( $videos->chunk(4) as $chunk )
         <div class="row text-center">
             @foreach($chunk as $video)
+            @php
+                $video = $video->translate(App::getLocale());
+            @endphp
             <div class="col-12 col-sm-6 mt-5">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ @getYoutubeId($video->youtube) }}?rel=0" allowfullscreen></iframe>

@@ -13,6 +13,9 @@
         @foreach( $articles->chunk(4) as $chunk )
         <div class="row text-center">
             @foreach($chunk as $article)
+            @php
+                $article = $article->translate(App::getLocale());
+            @endphp
                 <div class="col-md-6 mt-5">
                     <a href="{{ url('article/detail/'.$article->id) }}">
                     <div class="fdb-box fdb-touch">

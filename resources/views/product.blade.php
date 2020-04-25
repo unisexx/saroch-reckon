@@ -11,6 +11,9 @@
         @foreach( $product_categories->chunk(3) as $chunk )
         <div class="row">
             @foreach($chunk as $product_category)
+            @php
+                $product_category = $product_category->translate(App::getLocale());
+            @endphp
                 <div class="col-md-8 col-lg-4 mt-5">
                     <a href="{{ url('product-category/'. $product_category->id) }}">
                     <div class="fdb-box">

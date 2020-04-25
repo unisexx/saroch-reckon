@@ -7,18 +7,20 @@ use Illuminate\Http\Request;
 use App\ProductCategory;
 use App\Product;
 
+use App;
+
 class ProductController extends Controller
 {
     public function index()
     {
-        $product_categories = ProductCategory::orderBy('order', 'asc')->get();
+        $product_categories = ProductCategory::with('translations')->orderBy('order', 'asc')->get();
         return view('product', compact('product_categories'));
     }
 
     public function category($id)
     {
-        $product_category = ProductCategory::findOrFail($id);
-        $products = Product::where('status', 1)->orderBy('id', 'desc')->paginate(5);
+        $product_category = ProductCategory::findOrFail($id)->translate(App::getLocale());
+        $products = Product::with('translations')->where('status', 1)->orderBy('id', 'desc')->paginate(5);
         return view('product-category', compact('product_category', 'products'));
     }
 }

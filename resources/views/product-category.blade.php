@@ -15,6 +15,9 @@
 <section class="fdb-block">
     <div class="container">
         @foreach($products as $product)
+        @php
+            $product = $product->translate(App::getLocale());
+        @endphp
         <div class="row align-items-center">
             <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pb-5 pb-md-0">
                 <img alt="image" class="img-fluid rounded-0" src="{{ asset('storage/'.$product->image) }}">

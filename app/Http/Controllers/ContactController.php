@@ -9,11 +9,13 @@ use App\Contact;
 use App\Http\Requests\ContactRequest;
 use App\Message;
 
+use App;
+
 class ContactController extends Controller
 {
     public function index()
     {
-        $contact = Contact::findOrFail(1);
+        $contact = Contact::with('translations')->firstOrFail()->translate(App::getLocale());
         return view('contact', compact('contact'));
     }
 
