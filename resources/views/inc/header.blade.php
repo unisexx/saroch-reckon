@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-md">
             <div class="col">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url('') }}">
                     <img src="{{ asset('storage/'.setting('site.logo')) }}" height="30" alt="image">
                 </a>
             </div>
@@ -21,7 +21,7 @@
                         <a class="nav-link" href="{{ url('about') }}" contenteditable="false">@lang('About Us')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">@lang('Product')</a>
+                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">@lang('Products and Services')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('video') }}" contenteditable="false">@lang('Clip Video')</a>

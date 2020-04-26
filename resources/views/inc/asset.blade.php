@@ -32,6 +32,13 @@ padding: 250px 0;
     justify-content: center!important;
     margin:0 0 50px 0;
 }
+
+/* Breadcrumb */
+.breadcrumb-right-arrow .breadcrumb-item+.breadcrumb-item::before {   content: "›"; vertical-align:top; font-size:20px;  line-height:25px; color: rgba(179, 161, 156, 1);}
+.breadcrumb-right-arrow{background:transparent; border-bottom:2px solid rgb(0, 173, 239); border-radius: 0px; font-size: 13px;line-height:25px;padding: 8px;padding-right: 0;padding-left: 0;}
+.breadcrumb-right-arrow a {color: rgb(0, 173, 239);}
+.breadcrumb-right-arrow a:hover {color: rgba(42, 100, 150, 1);}
+.breadcrumb-right-arrow>.active {color: rgba(153, 153, 153, 1);}
 </style>
 
 <!-- font -->
@@ -47,7 +54,7 @@ padding: 250px 0;
 
 @push('js-asset')
 <!--JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 

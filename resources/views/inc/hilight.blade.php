@@ -16,7 +16,9 @@
     <div class="carousel-inner">
         @foreach( $hilights as $key => $hilight )
             <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
-                <img class="img-fluid" src="{{ asset('storage/'.$hilight->image) }}" alt="">
+                @if($hilight->url) <a href="{{ url($hilight->url) }}"> @endif
+                    <img class="d-block w-100" src="{{ asset('storage/'.$hilight->image) }}" alt="">
+                @if($hilight->url) </a> @endif
             </div>
         @endforeach
     </div>
@@ -31,3 +33,11 @@
 
 </div>
 {{-- Hilight --}}
+
+<style>
+    .carousel-item img {
+        /* max-height: 100vh;  */
+        max-height: 600px !important; 
+        object-fit: cover;
+    }
+</style>
