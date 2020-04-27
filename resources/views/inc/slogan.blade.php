@@ -1,5 +1,5 @@
 @php
-    $about = \App\About::firstOrFail();
+    $about = \App\About::with('translations')->firstOrFail()->translate(App::getLocale());
 @endphp
 
 <section class="fdb-block" style="background-image: url({{ asset('app-assets/imgs/shapes/6.svg') }});">
