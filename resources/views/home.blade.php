@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="col-12 col-md-9 ml-auto mr-auto mt-3 mt-md-0">
-                    <p>{{ $about->home_body }}</p>
+                    <p>{!! $about->home_body !!}</p>
                 </div>
             </div>
         </div>
@@ -51,13 +51,13 @@
     <div class="container">
         <div>
             <div>
-                <h3>@lang('Products and Services')</h3>
+                <h2 class="mb-3">@lang('Products and Services')</h2>
             </div>
         </div>
         @foreach( $product_categories->chunk(3) as $chunk )
         <div class="row">
             @foreach($chunk as $product_category)
-                <div class="col-md-8 col-lg-4 mt-5">
+                <div class="col-md-8 col-lg-4 mb-5">
                     <a href="{{ url('product-category/'. $product_category->id) }}">
                     <div class="fdb-box">
                         <div class="row no-gutters align-items-center">
@@ -86,7 +86,7 @@
     <div class="container">
         <div>
             <div>
-                <h3>@lang('Interesting articles')</h3>
+                <h2 class="mb-3">@lang('Interesting articles')</h2>
             </div>
         </div>
         <div class="row text-center">

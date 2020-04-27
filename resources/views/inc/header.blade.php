@@ -1,3 +1,7 @@
+@php
+    $contact = \App\Contact::firstOrFail();
+@endphp
+
 <header class="top-header">
     <div class="container">
         <nav class="navbar navbar-expand-md">
@@ -37,6 +41,8 @@
                     <a href="{{ url('change/th') }}"><img src="{{ asset('app-assets/imgs/thai.jpg') }}"></a>
                 &nbsp;&nbsp;
                     <a href="{{ url('change/en') }}"><img src="{{ asset('app-assets/imgs/eng.jpg') }}"></a>
+                &nbsp;&nbsp;
+                    <a href="{{ $contact->facebook }}" target="_blank"><i class="fab fa-facebook fa-2x" style="color:#3b5998;"></i></a>
             </div>
         </nav>
     </div>
