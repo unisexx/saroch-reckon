@@ -39,7 +39,7 @@
                 <p><b>@lang('Brand') :</b> {{ $product->brand }}</p>
                 <p><b>@lang('Size') :</b> {{ $product->size }}</p>
                 <p><b>@lang('Detail') :</b> {{ $product->body }}</p>
-                <p><b>@lang('Price') :</b> {{ number_format($product->price, 2) }} บาท</p>
+                <p><b>@lang('Contain') :</b> {{ $product->contain }}</p>
             </div>
         </div>
         <hr>

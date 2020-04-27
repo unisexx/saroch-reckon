@@ -49,4 +49,7 @@
 </section>
 
 
+@include('inc.slogan')
+
+
 @endsection
