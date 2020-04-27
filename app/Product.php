@@ -8,5 +8,5 @@ use TCG\Voyager\Traits\Translatable;
 class Product extends Model
 {
     use Translatable;
-    protected $translatable = ['title', 'body'];
+    protected $translatable = ['title', 'body', 'brand', 'size', 'contain', 'gen'];
 }
