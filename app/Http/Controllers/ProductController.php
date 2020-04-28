@@ -20,7 +20,7 @@ class ProductController extends Controller
     public function category($id)
     {
         $product_category = ProductCategory::findOrFail($id)->translate(App::getLocale());
-        $products = Product::with('translations')->where('product_category_id', $id)->where('status', 1)->orderBy('id', 'desc')->paginate(5);
+        $products = Product::with('translations')->where('product_category_id', $id)->where('status', 1)->orderBy('order', 'asc')->paginate(5);
         return view('product-category', compact('product_category', 'products'));
     }
 }

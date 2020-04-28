@@ -38,11 +38,11 @@
                     </li>
                 </ul>
                 &nbsp;
-                    <a href="{{ url('change/th') }}"><img src="{{ asset('app-assets/imgs/thai.jpg') }}"></a>
+                    <a href="{{ url('change/th') }}"><img src="{{ asset('app-assets/images/th-flag.png') }}" width="32"></a>
                 &nbsp;&nbsp;
-                    <a href="{{ url('change/en') }}"><img src="{{ asset('app-assets/imgs/eng.jpg') }}"></a>
+                    <a href="{{ url('change/en') }}"><img src="{{ asset('app-assets/images/en-flag.png') }}" width="32"></a>
                 &nbsp;&nbsp;
-                    <a href="{{ $contact->facebook }}" target="_blank"><i class="fab fa-facebook fa-2x" style="color:#3b5998;"></i></a>
+                    <a href="{{ $contact->facebook }}" target="_blank"><img src="{{ asset('app-assets/images/facebook.png') }}" width="34"></a>
             </div>
         </nav>
     </div>

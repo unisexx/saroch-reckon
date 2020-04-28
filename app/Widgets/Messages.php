@@ -34,7 +34,7 @@ class Messages extends BaseDimmer
                 'text' => 'ดูข้อความทั้งหมด',
                 'link' => route('voyager.messages.index'),
             ],
-            'image' => '/app-assets/images/widget-bg.jpg',
+            'image' => 'https://i.imgur.com/95BTiiL.jpg',
         ]));
     }
 

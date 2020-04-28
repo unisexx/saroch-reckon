@@ -13,7 +13,7 @@
                     <div align="center">@lang('Clip Video')</div>
                 </div>
             </a>
-            <a href="{{ url('product') }}">
+            <a href="{{ asset('storage/catalog/reckon_catalog_2020.pdf') }}">
                 <div class="pl-5 pr-5" style="max-width:300px;">
                     <img alt="image" class="img-fluid" src="{{ asset('app-assets/imgs/people/download.jpg') }}">
                     <div align="center">@lang('Product Category')</div>
