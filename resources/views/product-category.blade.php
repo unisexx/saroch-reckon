@@ -30,7 +30,7 @@
         @php
             $product = $product->translate(App::getLocale());
         @endphp
-        <div class="row align-items-center product-carousel pt-3">
+        <div class="row product-carousel pt-3">
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 m-auto pb-5 pb-md-0">
 
                 {{-- image carousel --}}
@@ -61,7 +61,7 @@
                             @foreach($images as $imgkey => $image)
                             <li class="list-inline-item {{ $imgkey == 0 ? 'active' : '' }}">
                                 <a id="carousel-selector-{{$imgkey}}" class="selected" data-slide-to="{{$imgkey}}" data-target="#myCarousel{{ $key }}">
-                                    <img src="@if( !filter_var($image, FILTER_VALIDATE_URL)){{ Voyager::image( $image ) }}@else{{ $image }}@endif" class="img-fluid">
+                                    <img src="@if( !filter_var($image, FILTER_VALIDATE_URL)){{ Voyager::image( $image ) }}@else{{ $image }}@endif" class="img-fluid" style="max-width: 60px;">
                                 </a>
                             </li>
                             @endforeach
