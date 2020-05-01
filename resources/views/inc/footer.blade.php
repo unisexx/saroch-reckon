@@ -28,4 +28,4 @@
         </div>
     </div>
 </footer>
-<a style="display:scroll;position:fixed;bottom:15px;right:10px;" class="backtotop" href="#" rel="nofollow" title="Back to Top"><img style="border:0;" src="{{ asset('app-assets/imgs/top.jpg') }}" width="48"/></a>
+<a style="display:scroll;position:fixed;bottom:15px;right:10px;" class="backtotop" href="#" rel="nofollow" title="Back to Top"><img style="border:0;" src="{{ asset('app-assets/images/icon-back.png') }}" width="48"/></a>
