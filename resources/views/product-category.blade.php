@@ -7,7 +7,7 @@
     <nav aria-label="breadcrumb ">
         <ol class="breadcrumb breadcrumb-right-arrow d-flex justify-content-end">
             <li class="breadcrumb-item"><a href="{{ url('') }}">@lang('Home')</a></li>
-            <li class="breadcrumb-item"><a href="{{ url('product') }}">@lang('Products and Services')</a></li>
+            <li class="breadcrumb-item"><a href="{{ url('product') }}">@lang('Product')</a></li>
             <li class="breadcrumb-item active">{{ $product_category->title }}</li>
         </ol>
     </nav>

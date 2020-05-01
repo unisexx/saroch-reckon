@@ -10,7 +10,7 @@
             <a href="{{ url('video') }}">
                 <div class="pl-5 pr-5" style="max-width:300px;">
                     <img alt="image" class="img-fluid" src="{{ asset('app-assets/imgs/people/clip.jpg') }}">
-                    <div align="center">@lang('Clip Video')</div>
+                    <div align="center">@lang('Product Review')</div>
                 </div>
             </a>
             <a href="{{ asset('storage/catalog/reckon_catalog_2020.pdf') }}">
@@ -51,7 +51,7 @@
     <div class="container">
         <div>
             <div>
-                <h2 class="mb-3">@lang('Products and Services')</h2>
+                <h2 class="mb-3">@lang('Product')</h2>
             </div>
         </div>
         @foreach( $product_categories->chunk(3) as $chunk )
@@ -89,9 +89,10 @@
                 <h2 class="mb-3">@lang('Interesting articles')</h2>
             </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-left">
         @foreach( $articles as $article )
-            <div class="col-md-6 mb-4 mt-2">
+            {{-- <div class="col-md-6 mb-4 mt-2"> --}}
+            <div class="col">
                 <a href="{{ url('article/detail/'.$article->id) }}">
                 <div class="fdb-box fdb-touch">
                     <div class="row align-items-center">

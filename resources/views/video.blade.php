@@ -7,7 +7,7 @@
     <nav aria-label="breadcrumb ">
         <ol class="breadcrumb breadcrumb-right-arrow d-flex justify-content-end">
             <li class="breadcrumb-item"><a href="{{ url('') }}">@lang('Home')</a></li>
-            <li class="breadcrumb-item active">@lang('Clip Video')</li>
+            <li class="breadcrumb-item active">@lang('Product Review')</li>
         </ol>
     </nav>
 </div>
@@ -17,7 +17,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12 text-left">
-                <h2>@lang('Clip Video')</h2>
+                <h2>@lang('Product Review')</h2>
             </div>
         </div>
 

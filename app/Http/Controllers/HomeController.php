@@ -16,7 +16,7 @@ class HomeController extends Controller
     {
         $about = About::with('translations')->firstOrFail()->translate(App::getLocale());
         $product_categories = ProductCategory::with('translations')->orderBy('order', 'asc')->get()->translate(App::getLocale());
-        $articles = Article::with('translations')->where('status', 1)->orderBy('id','desc')->take(4)->get()->translate(App::getLocale());
+        $articles = Article::with('translations')->where('status', 1)->orderBy('id','desc')->take(1)->get()->translate(App::getLocale());
         return view('home', compact('about', 'product_categories', 'articles'));
     }
 }

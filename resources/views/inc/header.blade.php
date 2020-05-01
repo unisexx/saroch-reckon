@@ -25,10 +25,10 @@
                         <a class="nav-link" href="{{ url('about') }}" contenteditable="false">@lang('About Us')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">@lang('Products and Services')</a>
+                        <a class="nav-link" href="{{ url('product') }}" contenteditable="false">@lang('Product')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('video') }}" contenteditable="false">@lang('Clip Video')</a>
+                        <a class="nav-link" href="{{ url('video') }}" contenteditable="false">@lang('Product Review')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('article') }}" contenteditable="false">@lang('Article')</a>

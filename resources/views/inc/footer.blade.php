@@ -13,7 +13,7 @@
                         <a class="nav-link" href="{{ url('product') }}">@lang('Product')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('video') }}" target="_blank">@lang('Clip Video')</a>
+                        <a class="nav-link" href="{{ url('video') }}" target="_blank">@lang('Product Review')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('article') }}">@lang('Article')</a>
@@ -28,4 +28,4 @@
         </div>
     </div>
 </footer>
-<a style="display:scroll;position:fixed;bottom:15px;right:10px;" class="backtotop" href="#" rel="nofollow" title="Back to Top"><img style="border:0;" src="{{ asset('app-assets/imgs/top11.png') }}"/></a>
+<a style="display:scroll;position:fixed;bottom:15px;right:10px;" class="backtotop" href="#" rel="nofollow" title="Back to Top"><img style="border:0;" src="{{ asset('app-assets/imgs/top.jpg') }}" width="48"/></a>

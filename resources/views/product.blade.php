@@ -7,7 +7,7 @@
     <nav aria-label="breadcrumb ">
         <ol class="breadcrumb breadcrumb-right-arrow d-flex justify-content-end">
             <li class="breadcrumb-item"><a href="{{ url('') }}">@lang('Home')</a></li>
-            <li class="breadcrumb-item active">@lang('Products and Services')</li>
+            <li class="breadcrumb-item active">@lang('Product')</li>
         </ol>
     </nav>
 </div>
@@ -17,7 +17,7 @@
 <section class="fdb-block">
     <div class="container">
 
-        <h2>@lang('Products and Services')</h2>
+        <h2>@lang('Product')</h2>
 
         @foreach( $product_categories->chunk(3) as $chunk )
         <div class="row">
