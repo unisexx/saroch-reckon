@@ -31,11 +31,11 @@
     <div class="container">
         <div class="fdb-box">
             <div class="row align-items-center justify-content-center">
-                <div>
-                    <img alt="image" width="250" src="{{ asset('storage/'.$about->image) }}">
+                <div class="col-md-3">
+                    <img class="img-fluid" alt="image" src="{{ asset('storage/'.$about->image) }}">
                 </div>
 
-                <div class="col-12 col-md-9 ml-auto mr-auto mt-3 mt-md-0">
+                <div class="col-md-9 ml-auto mr-auto mt-3 mt-md-0">
                     <p>{!! $about->home_body !!}</p>
                 </div>
             </div>
