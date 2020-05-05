@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    @lang('Contact') - reckonthai.com
+@endsection
+
 @section('content')
 
 <!--breadcrumb-->

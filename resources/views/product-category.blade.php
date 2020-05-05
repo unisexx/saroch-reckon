@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    {{ $product_category->title }} - reckonthai.com
+@endsection
+
 @section('content')
 
 <!--breadcrumb-->

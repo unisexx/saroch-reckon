@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    {{ $article->title }} - reckonthai.com
+@endsection
+
 @section('content')
 
 <!--breadcrumb-->
