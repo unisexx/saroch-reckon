@@ -90,7 +90,7 @@
     <div class="container">
         <div>
             <div>
-                <h2 class="mb-3">@lang('Interesting articles')</h2>
+                <h2 class="mb-3">@lang('Articles')</h2>
             </div>
         </div>
         <div class="row text-left">

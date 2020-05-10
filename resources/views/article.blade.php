@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    @lang('Article') - reckonthai.com
+    @lang('Articles') - reckonthai.com
 @endsection
 
 @section('content')
@@ -11,7 +11,7 @@
     <nav aria-label="breadcrumb ">
         <ol class="breadcrumb breadcrumb-right-arrow d-flex justify-content-end">
             <li class="breadcrumb-item"><a href="{{ url('') }}">@lang('Home')</a></li>
-            <li class="breadcrumb-item active">@lang('Interesting articles')</li>
+            <li class="breadcrumb-item active">@lang('Articles')</li>
         </ol>
     </nav>
 </div>
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12 text-left">
-                <h2>@lang('Interesting articles')</h2>
+                <h2>@lang('Articles')</h2>
             </div>
         </div>
 

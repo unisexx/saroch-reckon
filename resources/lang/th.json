@@ -3,7 +3,7 @@
   "About Us": "เกี่ยวกับเรา",
   "Product" : "สินค้า",
   "Clip Video"   : "คลิปวิดีโอ",
-  "Article" : "บทความ",
+  "Articles" : "บทความ",
   "Contact" : "ติดต่อเรา",
 
   "Products and Services" : "สินค้าและบริการ",
@@ -25,9 +25,9 @@
   ,"Model":"รุ่น"
   ,"Brand":"แบรนด์"
   ,"Size":"ขนาด"
-  ,"Detail":"รายละเอียด"
+  ,"Item description":"รายละเอียด"
   ,"Price":"ราคา"
-  ,"Contain":"บรรจุ"
+  ,"Quantity":"บรรจุ"
 
   ,"Product Review" : "รีวิวสินค้า"
 }

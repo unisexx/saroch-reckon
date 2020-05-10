@@ -43,10 +43,30 @@ padding: 250px 0;
 
 <!-- font -->
 {{-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> --}}
-<link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Mitr&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/ae32da51cb4715541b6a9f2a5e3939f0?family=EucrosiaUPC" rel="stylesheet" type="text/css"/>
 <style>
+    * {
+        color:  #444444 !important;
+    }
     body{
+        font-family: 'Mitr', sans-serif;
+    }
+
+    .kanit-font{
+        font-family: 'Kanit', sans-serif !important;
+        font-size: 25px;
+    }
+
+    .mitr-font{
         font-family: 'Mitr', sans-serif !important;
+    }
+
+    @font-face {font-family: "EucrosiaUPC"; src: url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.eot"); src: url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ae32da51cb4715541b6a9f2a5e3939f0.svg#EucrosiaUPC") format("svg"); }
+
+    .EucrosiaUPC-font, .item-description ul li{
+        font-family: 'EucrosiaUPC', sans-serif !important;
+        font-size: 25px;
     }
 </style>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">

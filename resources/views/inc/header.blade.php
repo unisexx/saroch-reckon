@@ -31,7 +31,7 @@
                         <a class="nav-link" href="{{ url('video') }}" contenteditable="false">@lang('Product Review')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('article') }}" contenteditable="false">@lang('Article')</a>
+                        <a class="nav-link" href="{{ url('article') }}" contenteditable="false">@lang('Articles')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('contact') }}" contenteditable="false">@lang('Contact')</a>

@@ -6,7 +6,7 @@
     <div class="container">
         <div class="fdb-box-aboutus">
             <h2>{{ $about->title2 }}</h2>
-            {!! $about->body2 !!}
+            <span class="EucrosiaUPC-font">{!! $about->body2 !!}</span>
         </div>
     </div>
     <div id="product"></div>

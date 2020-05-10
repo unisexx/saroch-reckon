@@ -16,7 +16,7 @@
                         <a class="nav-link" href="{{ url('video') }}" target="_blank">@lang('Product Review')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('article') }}">@lang('Article')</a>
+                        <a class="nav-link" href="{{ url('article') }}">@lang('Articles')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('contact') }}">@lang('Contact')</a>
