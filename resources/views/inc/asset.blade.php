@@ -70,7 +70,7 @@ padding: 250px 0;
         font-size: 25px;
     } */
 
-    .lato-font, .item-description ul li{
+    .lato-font, .item-description{
         font-family: 'Lato' !important;
     }
 
