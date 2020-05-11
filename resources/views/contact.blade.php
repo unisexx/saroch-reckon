@@ -23,7 +23,7 @@
         <div class="row text-center">
             <div class="col-12 text-left">
                 <h2>{{ $contact->title }}</h2>
-                {!! $contact->body !!}
+                <span class="lato-font">{!! $contact->body !!}</span>
             </div>
         </div>
 </section>

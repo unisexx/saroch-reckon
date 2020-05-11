@@ -41,7 +41,7 @@
                             </div>
                             <div class="col-8">
                                 <h3><strong>{{ $article->title }}</strong></h3>
-                                <p>{{ $article->excerpt }}</p>
+                                <p class="lato-font">{{ $article->excerpt }}</p>
                             </div>
                         </div>
                     </div>

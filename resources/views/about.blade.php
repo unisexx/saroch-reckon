@@ -22,7 +22,7 @@
     <div class="container">
         <div class="fdb-box-aboutus">
             <h2>{{ $about->title }}</h2>
-            <span class="EucrosiaUPC-font">{!! $about->body !!}</span>
+            <span class="lato-font">{!! $about->body !!}</span>
         </div>
     </div>
     <div id="product"></div>

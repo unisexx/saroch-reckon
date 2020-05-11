@@ -33,7 +33,7 @@
                         class="img-fluid mx-ato d-block"></div>
                 <div class="col-md-12 mt-5">
                     <h3 class="title-article">{{ $article->title }}</h3>
-                    {!! $article->body !!}
+                    <span class="lato-font">{!! $article->body !!}</span>
                 </div>
             </div>
         </div>

@@ -77,11 +77,11 @@
             </div>
             <div class="col-12 ml-md-auto col-md-7 col-lg-6 pb-5 pb-md-0 item-description">
                 <h3 class="kanit-font">{{ $product->title }}</h3>
-                <p class="EucrosiaUPC-font"><b>@lang('Model') :</b> {{ $product->gen }}</p>
-                <p class="EucrosiaUPC-font"><b>@lang('Brand') :</b> {{ $product->brand }}</p>
-                <p class="EucrosiaUPC-font"><b>@lang('Size') :</b> {{ $product->size }}</p>
-                <p class="EucrosiaUPC-font"><b>@lang('Item description') :</b> {!! $product->body !!}</p>
-                <p class="EucrosiaUPC-font"><b>@lang('Quantity') :</b> {{ $product->contain }}</p>
+                <p class="lato-font"><b>@lang('Model') :</b> {{ $product->gen }}</p>
+                <p class="lato-font"><b>@lang('Brand') :</b> {{ $product->brand }}</p>
+                <p class="lato-font"><b>@lang('Size') :</b> {{ $product->size }}</p>
+                <p class="lato-font"><b>@lang('Item description') :</b> {!! $product->body !!}</p>
+                <p class="lato-font"><b>@lang('Quantity') :</b> {{ $product->contain }}</p>
             </div>
         </div>
         <hr>
